@@ -1,6 +1,5 @@
  pipeline {
-    agent {
-       docker { image 'subrata1984/nginx_container' }
+    agent any {
     }
     stages {
        stage ('Build Hello-World') {
