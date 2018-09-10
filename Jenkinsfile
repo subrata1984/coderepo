@@ -6,7 +6,7 @@
       }
     }
     stages {
-       stage (Build Hello-World) {
+       stage ('Build Hello-World') {
          steps {
             echo "maven install"
             mvn --version
