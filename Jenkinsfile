@@ -9,8 +9,7 @@
        stage ('Build Hello-World') {
          steps {
             echo "maven install"
-            mvn --version
-           }
+           
        }
  }  
              
