@@ -8,8 +8,8 @@
     stages {
        stage ('Build Hello-World') {
          steps {
-            echo "maven install"
-           
+            echo "maven install"       
        }
- }  
-             
+    }  
+  }
+}
